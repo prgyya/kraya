@@ -306,7 +306,7 @@ li:hover{
     }
 
     #wrap {
-        width: 20rem;
+        width: 25rem;
     }
     #sidebar,#sidebar_two{
         position:absolute;
@@ -337,9 +337,7 @@ li:hover{
         left: -4rem;
     }
     #contact{
-        position:absolute;
-        left:30rem;
-        top:50%;
+        display:none;
     }
 }
 
