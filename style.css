@@ -250,8 +250,8 @@ li:hover{
     #another_box {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
-        align-items: end;
+        justify-content: center;
+        align-items: center;
         margin-right: 2rem;
         position: relative;
     }
