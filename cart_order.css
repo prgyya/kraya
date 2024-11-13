@@ -1,0 +1,18 @@
+#holder{
+    height:90vh;
+    margin:2rem;
+    padding:0;
+    display:flex;
+    padding-left:2rem;
+}
+#cart{
+    width:30rem;
+    border-right:2px solid black;
+}
+#order{
+    width:20rem;
+    padding-left:2rem;
+}
+#holder h2{
+    text-decoration: underline;
+}

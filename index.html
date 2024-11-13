@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kraya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="inject">
+            <div id="cancel">
+                <div class="cross" id="fcross"></div>
+                <div class="cross" id="scross"></div>
+            </div>
+        </div>
+        <div id="box">
+            <div id="text">KRAYA</div>
+            <div id="wrap">
+                <textarea name="text" id="searching" placeholder="write here" rows="3" cols="4"></textarea>
+                <input type="button" value="search" onclick="search()">
+            </div>
+        </div>
+        <div id="another_box">
+            <div>
+                <div class="tag fashion_tag" id="two">Fashion</div>
+                <div id="sidebar">
+                    <ul id="list">
+                        <li id="women" onclick="women()">Womens wear</li>
+                        <li id="men" onclick="men()">Mens wear</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tag cart_tag" id="one">Cart/Order</div>
+            <div>
+                <div class="tag Setting_tag" id="three">Setting</div>
+                <div id="sidebar_two">
+                    <ul id="list_two">
+                        <li id="log" onclick="exchange()">Profile</li>
+                        <li id="login" onclick="login()">Log-in</li>
+                    </ul>
+                    <div id="contact">
+                        <p id="con">Contact Us</p>
+                        <span>ethical.stroke@gmail.com</span><br>
+                        <span>prgyya</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
