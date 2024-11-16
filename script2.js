@@ -52,7 +52,21 @@ function search() {
    console.log(text);
    let store = {
       women: 'women.html',
+      Women: 'women.html',
+      woman: 'women.html',
+      Woman: 'women.html',
+      girls:'women.html',
+      girl:'women.html',
+      Girls:'women.html',
+      Girl:'women.html',
       men: 'men.html',
+      man: 'men.html',
+      Men: 'men.html',
+      Man: 'men.html',
+      boys: 'men.html',
+      Boys:'men.html',
+      boy:'men.html',
+      Boy:'men.html',
    }
    if (store[text]) {
       window.location.href = store[text];
