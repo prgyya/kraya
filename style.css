@@ -22,7 +22,7 @@ body{
     width:100svw;
     height:100svh;
     background-color: #d1c3a5;
-    background-image: url('kraya room/d0dd2f4edfd071f61a8dddcdbcf4b2af.jpg'),url('kraya room/022dbc0c5e4c3b3f4212bffb066be7d1.jpg');
+    background-image:url('kraya room/nine.jpg'),url('kraya room/twentySeven.jpg');
     background-repeat: no-repeat;
     background-position: left bottom,right;
     background-size: 15rem,contain;
@@ -199,7 +199,7 @@ li{
 .fashion_tag.clicked,
 .Setting_tag.clicked{
     background-color: rgb(197, 140, 87);
-    background-image:url("kraya room/0a57291133dfcf773ef951c889ac6c0c.jpg"),url("kraya room/0620cc329ba810be170ccade6a365023.jpg");
+    background-image:url("kraya room/one.jpg"),url("kraya room/twentyNine.jpg");
     background-repeat: no-repeat;
     background-position: left bottom,right;
     background-size: 18rem,30rem 46rem;
@@ -472,7 +472,7 @@ li:hover{
         width:100svw;
         height:100svh;
         background-color: #d1c3a5;
-        background-image: url('kraya room/022dbc0c5e4c3b3f4212bffb066be7d1.jpg');
+        background-image: url("kraya room/twentySeven.jpg");
         background-repeat: no-repeat;
         background-size: contain;
         background-blend-mode: color-burn;
@@ -559,7 +559,7 @@ li:hover{
         position: absolute;
         top:40%;
         width:100%;
-        background-image: url("kraya room/0a57291133dfcf773ef951c889ac6c0c.jpg");
+        background-image: url("kraya room/twentyNine.jpg");
     }
 
     li {
